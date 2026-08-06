@@ -1,0 +1,18 @@
+# Ambiente virtual
+.venv
+venv/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# PDFs baixados em runtime (podem conter dados sensíveis)
+pdfs/*.pdf
+
+# Arquivos temporários / de teste local
+teste.py
